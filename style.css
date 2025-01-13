@@ -121,6 +121,7 @@ nav {
     align-items: center;
     order: 0;
     flex-grow: 0;
+    font-family: Fira Sans;
 }
 
 
@@ -665,4 +666,19 @@ nav {
     background: rgb(255, 255, 255);
     position: static;
     margin: 40px 160px;
+}
+
+.time {
+    display: flex;
+    width: 230px;
+}
+
+.paragraph {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
