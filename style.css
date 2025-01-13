@@ -1,238 +1,388 @@
-        .work-sans-normal {
-            font-family: "Work Sans", serif;
-            font-optical-sizing: auto;
-            font-weight: normal;
-            font-style: normal;
-        }
-        /* styles of navigation bar  */
-        
-        nav {
-            font-family: fira-sans;
-            justify-content: space-between;
-            display: flex;
-            margin: 40px 160px;
-            align-items: center;
-        }
-        
-        .bd {
-            font-weight: 600;
-            font-size: 32px;
-        }
-        
-        .sign-in {
-            font-weight: 600;
-            font-size: 20px;
-            color: rgb(0, 106, 80);
-            box-sizing: border-box;
-            padding: 10px 20px;
-            border-radius: 8px;
-            background-color: white;
-            border: 1px solid rgb(0, 106, 80);
-        }
-        /* style of banner section */
-        
-        .banner {
-            display: flex;
-            justify-content: space-between;
-            margin: 40px 160px;
-            border-radius: 24px;
-            background: rgb(198, 228, 214);
-            font-family: fira-sans;
-            padding: 80px 59px;
-            gap: 10px;
-        }
-        
-        .subtitle {
-            color: rgba(14, 14, 14, 0.5);
-            font-size: 24px;
-            font-weight: 500;
-            line-height: 29px;
-            letter-spacing: 0%;
-            text-align: left;
-        }
-        
-        .title {
-            color: rgb(14, 14, 14);
-            font-family: Fira Sans;
-            font-size: 56px;
-            font-weight: 700;
-            line-height: 67px;
-            letter-spacing: 0%;
-            text-align: left;
-        }
-        
-        .btn-banner {
-            border-radius: 8px;
-            background: rgb(0, 106, 80);
-            color: rgb(255, 255, 255);
-            font-family: Fira Sans;
-            font-size: 18px;
-            font-weight: 600;
-            line-height: 22px;
-            letter-spacing: 0%;
-            text-align: left;
-            padding: 20px 40px;
-            border: 1px solid rgb(0, 106, 80);
-        }
-        /* style of pillar section */
-        
-        .card {
-            display: flex;
-            justify-content: space-between;
-            margin: 40px 160px;
-            gap: 20px;
-            align-items: center;
-        }
-        
-        .pillars {
-            flex-direction: column;
-            margin: 40px 160px;
-            gap: 20px;
-            color: rgb(14, 14, 14);
-            font-family: Fira Sans;
-            font-size: 20px;
-            font-weight: 600;
-            line-height: 48px;
-            letter-spacing: 0%;
-            text-align: left;
-            margin-bottom: 10px;
-        }
-        
-        .card-container {
-            box-sizing: border-box;
-            border: 1px solid rgba(14, 14, 14, 0.15);
-            border-radius: 16px;
-            background: rgb(255, 255, 255);
-            padding: 20px;
-            flex: start;
-            align-items: center;
-            order: 0;
-            flex-grow: 0;
-        }
-        /* style vision section */
-        
-        .card-container-1 {
-            box-sizing: border-box;
-            border-radius: 16px;
-            background: rgba(84, 144, 245, 0.2);
-            border-radius: 16px;
-            padding: 20px;
-            font-family: Fira Sans;
-        }
-        
-        .card-container-2 {
-            box-sizing: border-box;
-            border-radius: 16px;
-            background: rgb(198, 228, 214);
-            padding: 20px;
-            font-family: Fira Sans;
-        }
-        
-        .card-container-3 {
-            border: 1px solid rgba(14, 14, 14, 0.15);
-            box-sizing: border-box;
-            border-radius: 16px;
-            background: rgb(247, 235, 207);
-            padding: 20px;
-            font-family: Fira Sans;
-        }
-        
-        .btn-1 {
-            color: rgb(255, 255, 255);
-            font-family: Fira Sans;
-            font-size: 16px;
-            font-weight: 600;
-            line-height: 15px;
-            letter-spacing: 0%;
-            text-align: left;
-            border-radius: 8px;
-            padding: 11px 20px 11px 20px;
-            background: rgb(84, 144, 245);
-            align-items: center;
-            justify-content: center;
-            border: none;
-            flex: none;
-            order: 2;
-            flex-grow: 0;
-            margin: 24px 0px;
-        }
-        
-        .btn-2 {
-            color: rgb(255, 255, 255);
-            font-family: Fira Sans;
-            font-size: 16px;
-            font-weight: 600;
-            line-height: 15px;
-            letter-spacing: 0%;
-            text-align: left;
-            border-radius: 8px;
-            padding: 11px 20px 11px 20px;
-            background: rgb(9, 161, 92);
-            align-items: center;
-            justify-content: center;
-            border: none;
-            flex: none;
-            order: 2;
-            flex-grow: 0;
-            margin: 24px 0px;
-        }
-        
-        .btn-3 {
-            color: rgb(255, 255, 255);
-            font-family: Fira Sans;
-            font-size: 16px;
-            font-weight: 600;
-            line-height: 15px;
-            letter-spacing: 0%;
-            text-align: left;
-            border-radius: 8px;
-            padding: 11px 20px 11px 20px;
-            background: rgb(255, 194, 57);
-            align-items: center;
-            justify-content: center;
-            border: none;
-            flex: none;
-            order: 2;
-            flex-grow: 0;
-            margin: 24px 0px;
-        }
-        /* style of quote section */
-        
-        .quote {
-            background-image: url(assets/quote-bg.png);
-            background-repeat: no-repeat;
-            background-position: left top;
-            gap: 20px;
-            align-items: center;
-            margin: 40px 160px;
-        }
-        
-        .younus-para {
-            padding-top: 20px;
-            font-family: Fira Sans;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 24px;
-            letter-spacing: 0%;
-            text-align: left;
-        }
-        
-        .name {
-            color: rgba(14, 14, 14, 0.8);
-            font-family: Fira Sans;
-            font-size: 20px;
-            font-weight: 600;
-            line-height: 24px;
-            letter-spacing: 0%;
-            text-align: left;
-        }
-        
-        .chief-title {
-            color: rgba(14, 14, 14, 0.6);
-            font-family: Fira Sans;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 24px;
-            letter-spacing: 0%;
-            text-align: left;
-        }
+                        .work-sans-normal {
+                            font-family: "Work Sans", serif;
+                            font-optical-sizing: auto;
+                            font-weight: normal;
+                            font-style: normal;
+                        }
+                        /* styles of navigation bar  */
+                        
+                        nav {
+                            font-family: fira-sans;
+                            justify-content: space-between;
+                            display: flex;
+                            margin: 40px 160px;
+                            align-items: center;
+                        }
+                        
+                        .bd {
+                            font-weight: 600;
+                            font-size: 32px;
+                        }
+                        
+                        .sign-in {
+                            font-weight: 600;
+                            font-size: 20px;
+                            color: rgb(0, 106, 80);
+                            box-sizing: border-box;
+                            padding: 10px 20px;
+                            border-radius: 8px;
+                            background-color: white;
+                            border: 1px solid rgb(0, 106, 80);
+                        }
+                        /* style of banner section */
+                        
+                        .banner {
+                            display: flex;
+                            justify-content: space-between;
+                            margin: 40px 160px;
+                            border-radius: 24px;
+                            background: rgb(198, 228, 214);
+                            font-family: fira-sans;
+                            padding: 80px 59px;
+                            gap: 10px;
+                        }
+                        
+                        .subtitle {
+                            color: rgba(14, 14, 14, 0.5);
+                            font-size: 24px;
+                            font-weight: 500;
+                            line-height: 29px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                        }
+                        
+                        .title {
+                            color: rgb(14, 14, 14);
+                            font-family: Fira Sans;
+                            font-size: 56px;
+                            font-weight: 700;
+                            line-height: 67px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                        }
+                        
+                        .btn-banner {
+                            border-radius: 8px;
+                            background: rgb(0, 106, 80);
+                            color: rgb(255, 255, 255);
+                            font-family: Fira Sans;
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 22px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                            padding: 20px 40px;
+                            border: 1px solid rgb(0, 106, 80);
+                        }
+                        /* style of pillar section */
+                        
+                        .card {
+                            display: flex;
+                            justify-content: space-between;
+                            margin: 40px 160px;
+                            gap: 20px;
+                            align-items: center;
+                        }
+                        
+                        .pillars {
+                            flex-direction: column;
+                            margin: 40px 160px;
+                            gap: 20px;
+                            color: rgb(14, 14, 14);
+                            font-family: Fira Sans;
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 48px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                            margin-bottom: 10px;
+                        }
+                        
+                        .card-container {
+                            box-sizing: border-box;
+                            border: 1px solid rgba(14, 14, 14, 0.15);
+                            border-radius: 16px;
+                            background: rgb(255, 255, 255);
+                            padding: 20px;
+                            flex: start;
+                            align-items: center;
+                            order: 0;
+                            flex-grow: 0;
+                        }
+                        /* style vision section */
+                        
+                        .card-container-1 {
+                            box-sizing: border-box;
+                            border-radius: 16px;
+                            background: rgba(84, 144, 245, 0.2);
+                            border-radius: 16px;
+                            padding: 20px;
+                            font-family: Fira Sans;
+                        }
+                        
+                        .card-container-2 {
+                            box-sizing: border-box;
+                            border-radius: 16px;
+                            background: rgb(198, 228, 214);
+                            padding: 20px;
+                            font-family: Fira Sans;
+                        }
+                        
+                        .card-container-3 {
+                            border: 1px solid rgba(14, 14, 14, 0.15);
+                            box-sizing: border-box;
+                            border-radius: 16px;
+                            background: rgb(247, 235, 207);
+                            padding: 20px;
+                            font-family: Fira Sans;
+                        }
+                        
+                        .btn-1 {
+                            color: rgb(255, 255, 255);
+                            font-family: Fira Sans;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 15px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                            border-radius: 8px;
+                            padding: 11px 20px 11px 20px;
+                            background: rgb(84, 144, 245);
+                            align-items: center;
+                            justify-content: center;
+                            border: none;
+                            flex: none;
+                            order: 2;
+                            flex-grow: 0;
+                            margin: 24px 0px;
+                        }
+                        
+                        .btn-2 {
+                            color: rgb(255, 255, 255);
+                            font-family: Fira Sans;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 15px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                            border-radius: 8px;
+                            padding: 11px 20px 11px 20px;
+                            background: rgb(9, 161, 92);
+                            align-items: center;
+                            justify-content: center;
+                            border: none;
+                            flex: none;
+                            order: 2;
+                            flex-grow: 0;
+                            margin: 24px 0px;
+                        }
+                        
+                        .btn-3 {
+                            color: rgb(255, 255, 255);
+                            font-family: Fira Sans;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 15px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                            border-radius: 8px;
+                            padding: 11px 20px 11px 20px;
+                            background: rgb(255, 194, 57);
+                            align-items: center;
+                            justify-content: center;
+                            border: none;
+                            flex: none;
+                            order: 2;
+                            flex-grow: 0;
+                            margin: 24px 0px;
+                        }
+                        /* style of quote section */
+                        
+                        .quote {
+                            background-image: url(assets/quote-bg.png);
+                            background-repeat: no-repeat;
+                            background-position: left top;
+                            gap: 20px;
+                            align-items: center;
+                            margin: 40px 160px;
+                        }
+                        
+                        .younus-para {
+                            padding-top: 20px;
+                            font-family: Fira Sans;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                        }
+                        
+                        .name {
+                            color: rgba(14, 14, 14, 0.8);
+                            font-family: Fira Sans;
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 24px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                        }
+                        
+                        .chief-title {
+                            color: rgba(14, 14, 14, 0.6);
+                            font-family: Fira Sans;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                        }
+                        /* style of opinion section */
+                        /* Style for the overall section */
+                        
+                        .opinion {
+                            width: 80%;
+                            margin: auto;
+                            font-family: fira-sans;
+                            border-radius: 16px;
+                            background: rgb(255, 255, 255);
+                            order: 1;
+                            align-self: stretch;
+                            gap: 24;
+                            padding: 28px;
+                            border: 2px solid whitesmoke;
+                        }
+                        /* Header for Questions and Opinion */
+                        
+                        .question {
+                            display: flex;
+                            justify-content: space-between;
+                            background-color: #d4edda;
+                            padding: 10px;
+                            font-weight: bold;
+                            border: 1px solid #c3e6cb;
+                        }
+                        /* Style for each question row */
+                        
+                        .question-1 {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            border: 1px solid #ddd;
+                            padding: 10px;
+                            margin-top: -1px;
+                            /* To remove double border */
+                        }
+                        /* Button styling */
+                        
+                        .btn-opinion {
+                            background-color: #d4edda;
+                            border: 1px solid #28a745;
+                            padding: 8px 12px;
+                            border-radius: 4px;
+                            cursor: pointer;
+                            font-weight: bold;
+                            text-transform: capitalize;
+                        }
+                        /* Button hover effect */
+                        
+                        .btn-opinion:hover {
+                            background-color: #28a745;
+                            color: #fff;
+                        }
+                        /* style of news section */
+                        
+                        .news-card {
+                            display: flex;
+                            margin: 40px 160px;
+                            align-items: center;
+                            justify-content: space-around;
+                            background-color: #ffffff;
+                            /* White background for the border */
+                            border-radius: 20px;
+                            /* Rounded corners */
+                            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                            /* Subtle shadow for depth */
+                            padding: 30px;
+                            gap: 30px;
+                        }
+                        
+                        .news-content {}
+                        
+                        .img-news {
+                            width: 350px;
+                            /* Set your preferred image width */
+                            height: auto;
+                            /* Maintain aspect ratio */
+                            border-radius: 12px;
+                        }
+                        
+                        .parag {
+                            color: rgba(14, 14, 14, 0.7);
+                            font-family: Fira Sans;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                            flex: 1;
+                        }
+                        
+                        .head-news {
+                            color: rgba(14, 14, 14, 0.8);
+                            font-family: Fira Sans;
+                            font-size: 32px;
+                            font-weight: 700;
+                            line-height: 38px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                            flex: 1;
+                        }
+                        
+                        .dtime {
+                            color: rgba(14, 14, 14, 0.7);
+                            font-family: Fira Sans;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                            flex: 1;
+                        }
+                        
+                        .btn-banner1 {
+                            color: rgb(255, 255, 255);
+                            font-family: Fira Sans;
+                            font-size: 18px;
+                            font-weight: 300;
+                            line-height: 22px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                            border-radius: 8px;
+                            background: rgb(0, 106, 80);
+                            padding: 9px 15px 9px 15px;
+                            align-items: center;
+                            justify-content: center;
+                            border: none;
+                        }
+                        
+                        .news-head {
+                            margin: 40px 160px;
+                            color: rgba(14, 14, 14, 0.8);
+                            font-family: Fira Sans;
+                            font-size: 32px;
+                            font-weight: 700;
+                            line-height: 38px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                        }
+                        
+                        .news-para {
+                            margin: 40px 160px;
+                            color: rgba(14, 14, 14, 0.7);
+                            font-family: Fira Sans;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                        }
